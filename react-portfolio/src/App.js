@@ -1,4 +1,5 @@
-import Header from './components/Header';
+// import Header from './components/Header';
+import Title from './components/TitlePage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
@@ -6,7 +7,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header />
+      {<Title />}
+      {/* <Header /> */}
     </div>
   );
 }
