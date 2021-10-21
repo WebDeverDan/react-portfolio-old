@@ -20,12 +20,31 @@ header {
   width: 100%;
   padding-left: 1em;
   border: solid;
+  
 }
  
-.page_title{
-  width: 50%;
+
+
+.title-header{
+  color: white;
+  margin-top: 1em;
+
+}
+.title-page{
+  color:white;
+  margin-top: 15em;
+  font-size: larger;
+}
+.web-developer{
+font-size: 80px;
 }
 
+.enter-btn{
+  color: white;
+  border: solid;
+  padding: .5em;
+  
+}
 
 #navigation {
   border: solid;
