@@ -5,54 +5,100 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 100%;
+  min-height: 100%;
+  /* background-image: url('../src/Images/couple.jpg');
+  position: fixed;
+  background-repeat:no-repeat;
+  background-size: auto;
+  background-position: center; */
 }
-
+p {
+  color: black;
+  text-align: left;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-header {
-  background-color: gray;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  padding-left: 1em;
-  border: solid;
-  
+.home-container {
 }
- 
 
+.home-text {
+  text-align: center;
+}
 
-.title-header{
+.title-header {
   color: white;
   margin-top: 1em;
-
 }
-.title-page{
-  color:white;
-  margin-top: 15em;
+.title-page {
+  color: white;
+  margin-top: 12em;
   font-size: larger;
 }
-.web-developer{
-font-size: 80px;
+.web-developer {
+  font-size: 80px;
 }
 
-.enter-btn{
+.enter-btn {
   color: white;
   border: solid;
-  padding: .5em;
+  padding: 0.5em;
+}
+.about{
+  margin-top:5em;
+  margin-bottom: 3em;
+}
+.about-content {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+ .skills {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   padding-left: .5em;
+ }
+
+.flexitem {
+  width: 30%;
+}
+
+.navbar {
+  padding-left: 1em;
+}
+
+.nav-box{
+display: flex;
+}
+
+.Daniel {
+  padding-left: 1em;
+  width:10em;
+  height: auto;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5em;
+   
+}
+
+/* .Gamer {
   
-}
-
-#navigation {
+  margin: .5em;
   border: solid;
-  color: thistle;
-  width: 50%;
-}
-.nav-item{
-
 }
 
+.Weather {
+  
+  margin: .5em;
 
+  border: solid;
+} */
