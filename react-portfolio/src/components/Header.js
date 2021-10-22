@@ -1,35 +1,25 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const Header = ({ title }) => {
-  // const onClick = () => {
-  //     console.log('click')
-  // }
+const Header = () => {
   return (
-    <header className="header">
-      <div className="page_title">
-      <h1>{title}</h1>
-      </div>
-      <div class="container">
-  <nav class="navbar navbar-collapse navbar-light">
-      <div className="container-fluid d-flex justify-content-end">
-        <a className="navbar-brand" href="#">Navbar</a>
-        <a className="navbar-brand" href="#">Navbar</a>
-        <a className="navbar-brand" href="#">Navbar</a>
-        <a className="navbar-brand" href="#">Navbar</a>
-      </div>
-  </nav>
+    <div classnName="nav-box">
+    <nav class="navbar navbar-expand-lg bg-opacity-50 navbar-dark bg-dark">
+  <a class="navbar-brand text-light">Daniel Bradley</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active text-light" href="/about">About</a>
+      <a class="nav-item nav-link text-light" href="/portfolio">Portfolio</a>
+      <a class="nav-item nav-link text-light" href="/contact">Contact</a>
+      <a class="nav-item nav-link text-light" href="/resume">Resume</a>
+    </div>
+  </div>
+</nav>
 </div>
-    </header>
+    
   );
-};
-
-Header.defaultProps = {
-  title: 'Daniel Bradley',
-};
-
-Header.propTypes = {
-  title: PropTypes.string.isRequired,
 };
 
 export default Header;
