@@ -1,20 +1,34 @@
 
 body {
-  margin: 0;
-  font-family: 'Roboto', 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: 'Century-Gothic', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-width: 100%;
-  min-height: 100%;
-  height: 1360px;
- width: 100%;
- margin: 0;
- padding: 0;
- overflow: auto;
- 
+  width: 100%;
+  margin: auto;
+  background-size: auto;
 }
+
+body::after{
+  content:'';
+  display: flex;
+  flex-direction: column;
+  background:url('../src/Images/couple.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  opacity: 50;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  
+}
+
 p {
   color: black;
   text-align: left;
@@ -55,6 +69,11 @@ code {
   border: solid;
   padding: 0.5em;
 }
+
+.enter-btn:hover {
+  color: black;
+  
+}
 .about{
   margin-top:5em;
   margin-bottom: 3em;
@@ -82,18 +101,24 @@ code {
 }
 
 .nav-box{
-display: flex;
+width: 100%;
 }
 
 .Daniel {
-  padding-left: 1em;
-  width:10em;
+  /* padding-top: 1em; */
+  /* padding-left: 1em;
+  padding-right: 1em; */
+  margin-bottom: 1em;
+  margin: auto;
+  width:80%;
   height: auto;
   transition: 0.6s all ease-in-out;
+  border:solid;
+  color: white;
 }
-.Daniel:hover{
-  transform: scale(2)
-}
+/* .Daniel:hover{
+  transform: scale(1.1)
+} */
 
 .portfolio-title{
   text-decoration: none;
@@ -102,7 +127,6 @@ display: flex;
 }
 
 .portfolio-container{
-  
   display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -118,15 +142,21 @@ display: flex;
 .project-box:hover {
   transform: scale(1.05)
 }
-
-.contact-container{
-
+.resume-container{
+  border-radius: 5px;
 }
-.contact-content{
+
+iframe {
+  border-radius:5px;
+}
+.contact-container{
+  
+}
+/* .contact-content{
+  border-radius: 5px;
   display: flex;
   flex: row;
-  justify-content: space-between;
-}
+} */
 
 .contact-list{
   display: flex;
@@ -157,6 +187,7 @@ display: flex;
   left: 0;
   bottom: 0;
   width: 100%;
+
 }
 
 .footer_text{
@@ -164,9 +195,10 @@ display: flex;
   text-align: center;
 }
 footer {
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+  margin-top: 3em;
 
 }
