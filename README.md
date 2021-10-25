@@ -11,7 +11,6 @@
   
   * [Usage](#Usage)
   * [Contributing](#Contributing)
-  * [Tests](#Tests)
   * [License](#License)
   * [Acknowledgements](#Acknowledgements)
   * [Questions](#Questions)
@@ -48,6 +47,8 @@
   ![Image 1 of application:]()
   ![Image 2 of application:]()
   ![Image 3 of application:]()
+  ![Image 4 of application:]()
+  ![Image 5 of application:]()
   
 
 
