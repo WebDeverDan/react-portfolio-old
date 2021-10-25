@@ -1,14 +1,16 @@
 import React from 'react';
 import Daniel from '../Images/Daniel_Bradley.jpg'
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Contact = () => {
  
   return (
 
-<div class="container bg-dark bg-opacity-50 contact-container mt-5 mb-5">
+<Container fluid="md bg-dark bg-opacity-75 mt-5 mb-5 contact-container ">
 
-    <h1 class="display-4 text-light">Contact Daniel</h1>
-    <div className="contact-content">
+    <h1 class="display-4 text-light text-center">Contact Daniel</h1>
+    <Row >
+    <Col sm={6}>
     <div className="contact-list text-light bg-opacity-25">
     <h2 >Email</h2>
     <p class="lead text-light">danielbvideo@gmail.com</p>
@@ -19,6 +21,8 @@ const Contact = () => {
     <h2 >Design Portfolio</h2>
     <p class="lead text-light">www.danielbvideo.com</p>
     </div>
+    </Col>
+    <Col sm={6}>
     <div className="contact-form text-light">
     <h2 >Leave a Comment!</h2>
     <label for='full-name'>Full Name</label>
@@ -58,10 +62,12 @@ const Contact = () => {
         </div>
     
     </div>
-    </div>
+    </Col>
     
-
-</div>
+    
+    
+</Row>
+</Container>
   );
 };
 
