@@ -13,34 +13,29 @@ import './App.css';
 
 function App() {
   return (
+    
     <Router>
-      <div className="App">
-      
-        
+       
         { window.location.pathname !==  "/" ? <Header />:""}
-        
-        
-
-      
         <Route exact path="/">
-          <Home />
+         <Home />
         </Route> 
         <Route exact path="/about">
-          <About />
+         <About />
         </Route>
         <Route exact path="/portfolio">
-          <Portfolio />
+         <Portfolio />
         </Route> 
-        <Route path="/contact" exact>
-        <Contact />
+        <Route exact path="/contact" >
+         <Contact />
         </Route> 
-        <Route path="/resume" exact>
-        <Resume />
+        <Route exact path="/resume" >
+         <Resume />
         </Route> 
-         
-        { window.location.pathname !==  "/" ? <Footer />:""}
-      </div>
+        { window.location.pathname !==  "/" ? <Footer />:""}  
     </Router>
+    
+    
   );
 }
 
