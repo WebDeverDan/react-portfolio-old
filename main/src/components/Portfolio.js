@@ -1,19 +1,20 @@
 import React from 'react';
-import Gamer from '../Images/Confused_Gamer.png';
+import Gamer from '../Images/gamernew.png';
 import Weather from '../Images/Weather2.png';
 import Lego from '../Images/Lego2.png';
 import Beer from '../Images/beer.png';
 import Planner from '../Images/planner.png';
 import Fitness from '../Images/fitness-tracker.png';
+import {Container} from 'react-bootstrap'
 
 const Portfolio = () => {
   return (
-    <div class="container bg-dark bg-opacity-50 portfolio-container mt-5 mb-5">
-      <h1 class="display-4 text-light">Portfolio</h1>
+    <Container className="bg-dark bg-opacity-75 portfolio-container mt-5 mb-5">
+      <h1 class="display-4 text-light text-center">Web Portfolio</h1>
 
       <div class="row">
-        <div class="col-lg-6 mb-4 ">
-          <div class="card h-100 project-box m-2">
+        <div class="col-lg-6 mb-4">
+          <div class="card h-100 project-box m-2 border border-dark">
             <img class="card-img-top " src={Lego} alt="" />
             <div class="card-body">
               <h4 class="card-title">
@@ -39,7 +40,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div class="col-lg-6 mb-4">
-          <div class="card h-100 project-box m-2">
+          <div class="card h-100 project-box m-2 border border-dark">
             <img class="card-img-top" src={Gamer} alt="" />
             <div class="card-body">
               <h4 class="card-title">
@@ -64,7 +65,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div class="col-lg-6 mb-4">
-          <div class="card h-100 project-box m-2">
+          <div class="card h-100 project-box m-2 border border-dark">
             <img class="card-img-top" src={Weather} alt="" />
             <div class="card-body">
               <h4 class="card-title">
@@ -89,7 +90,7 @@ const Portfolio = () => {
         </div>
 
         <div class="col-lg-6 mb-4">
-          <div class="card h-100 project-box m-2">
+          <div class="card h-100 project-box m-2 border border-dark">
             <img class="card-img-top" src={Beer} alt="" />
             <div class="card-body">
               <h4 class="card-title">
@@ -114,7 +115,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div class="col-lg-6 mb-4">
-          <div class="card h-100 project-box m-2">
+          <div class="card h-100 project-box m-2 border border-dark">
             <img class="card-img-top" src={Planner} alt="" />
             <div class="card-body">
               <h4 class="card-title">
@@ -132,7 +133,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div class="col-lg-6 mb-4">
-          <div class="card h-100 project-box m-2">
+          <div class="card h-100 project-box m-2 border border-dark">
             <img class="card-img-top" src={Fitness} alt="" />
             <div class="card-body">
               <h4 class="card-title">
@@ -153,7 +154,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 
