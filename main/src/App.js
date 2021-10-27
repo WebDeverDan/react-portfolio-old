@@ -6,17 +6,20 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 
 function App() {
+const location=useLocation();
+  console.log(location)
   return (
     
-    <Router>
+    <>
        
-        { window.location.pathname !==  "/" ? <Header />:""}
+        { location.pathname !==  "/" ? <Header />:"" }
         <Route exact path="/">
          <Home />
         </Route> 
@@ -32,8 +35,8 @@ function App() {
         <Route exact path="/resume" >
          <Resume />
         </Route> 
-        { window.location.pathname !==  "/" ? <Footer />:""}  
-    </Router>
+        { location.pathname !==  "/" ? <Footer />:"" }  
+    </>
     
     
   );

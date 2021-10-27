@@ -6,7 +6,7 @@ const Resume = () => {
   return (
     // <div class="container bg-dark bg-opacity-50 portfolio-container mt-5 mb-5">
     <Container fluid="lg bg-dark bg-opacity-75 mt-5 mb-5 resume-container">
-      <h1 class="display-4 text-light text-center">Resume</h1>
+      <h1 class="display-4 text-light text-center pt-2">Resume</h1>
       <iframe src={Resume2} width="100%" height="500px ">
     </iframe>
     <h2 class="lead display-4 text-light mt-3">Front End Skills</h2>

@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.cfd828b0.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.d5893f22.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.d5893f22.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.9d830059.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.9d830059.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/react-portfolio/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.7d5fd95a.chunk.js": "/react-portfolio/static/js/2.7d5fd95a.chunk.js",
+    "static/js/2.7d5fd95a.chunk.js.map": "/react-portfolio/static/js/2.7d5fd95a.chunk.js.map",
+    "static/js/3.5a369f4f.chunk.js": "/react-portfolio/static/js/3.5a369f4f.chunk.js",
+    "static/js/3.5a369f4f.chunk.js.map": "/react-portfolio/static/js/3.5a369f4f.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/react-portfolio/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.cfd828b0.chunk.css.map": "/react-portfolio/static/css/main.cfd828b0.chunk.css.map",
+    "static/js/2.7d5fd95a.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.7d5fd95a.chunk.js.LICENSE.txt",
+    "static/media/Daniel Bradley Resume (1).e309f78a.pdf": "/react-portfolio/static/media/Daniel Bradley Resume (1).e309f78a.pdf",
+    "static/media/Daniel_Bradley.8b243bd5.jpg": "/react-portfolio/static/media/Daniel_Bradley.8b243bd5.jpg",
+    "static/media/Lego2.7768bc49.png": "/react-portfolio/static/media/Lego2.7768bc49.png",
+    "static/media/Weather2.73769be9.png": "/react-portfolio/static/media/Weather2.73769be9.png",
+    "static/media/beer.43585e49.png": "/react-portfolio/static/media/beer.43585e49.png",
+    "static/media/index.css": "/react-portfolio/static/media/couple.21741764.jpg",
+    "static/media/fitness-tracker.d7ee6c12.png": "/react-portfolio/static/media/fitness-tracker.d7ee6c12.png",
+    "static/media/gamernew.0cdaeffc.png": "/react-portfolio/static/media/gamernew.0cdaeffc.png",
+    "static/media/planner.9e216346.png": "/react-portfolio/static/media/planner.9e216346.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d830059.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.7d5fd95a.chunk.js",
+    "static/css/main.cfd828b0.chunk.css",
+    "static/js/main.d5893f22.chunk.js"
+  ]
+}

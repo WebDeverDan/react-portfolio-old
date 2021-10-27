@@ -37,7 +37,7 @@ const Contact = () => {
 
 <Container fluid="md bg-dark bg-opacity-75 mt-5 mb-5 contact-container ">
 
-    <h1 class="display-4 text-light text-center">Contact Daniel</h1>
+    <h1 class="display-4 text-light text-center pt-2">Contact Daniel</h1>
     <Row >
     <Col sm={6}>
     <div className="contact-list text-light bg-opacity-25">

@@ -10,7 +10,7 @@ import {Container} from 'react-bootstrap'
 const Portfolio = () => {
   return (
     <Container className="bg-dark bg-opacity-75 portfolio-container mt-5 mb-5">
-      <h1 class="display-4 text-light text-center">Web Portfolio</h1>
+      <h1 class="display-4 text-light text-center pt-2">Web Portfolio</h1>
 
       <div class="row">
         <div class="col-lg-6 mb-4">
