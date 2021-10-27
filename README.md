@@ -21,7 +21,7 @@
   * To view the live url link, please visit the link found below. In addition please refer to the Github repository found below for the source code. 
 
   * Github repository for source files: https://github.com/WebDeverDan/react-portfolio
-  * Live Deployment: 
+  * Live Deployment: https://webdeverdan.github.io/react-portfolio/#/
 
   
   ## Contributing
