@@ -1,6 +1,7 @@
-import React,{ useState } from 'react';
+import React, { useState } from 'react';
+import FadeIn from 'react-fade-in';
 import { Container, Row, Col } from 'react-bootstrap';
-import {  validateEmail } from '../utils/helpers';
+import { validateEmail } from '../utils/helpers';
 
 const Contact = () => {
   // Create state variables for the fields in the form
@@ -21,105 +22,59 @@ const Contact = () => {
 
   // const handleFormBlur = (e) => {
   // }
-  
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
     if (!validateEmail(email)) {
       setErrorMessage('Email is invalid. Please try again!');
       return;
-    } else { setErrorMessage(false)}
-    
-    setEmail('')
+    } else {
+      setErrorMessage(false);
+    }
+
+    setEmail('');
   };
 
-  return ( 
-
-<Container fluid="md bg-dark bg-opacity-75 mt-5 mb-5 contact-container ">
-
-    <h1 class="display-4 text-light text-center pt-2">Contact Daniel</h1>
-    <Row >
-    <Col sm={6}>
-    <div className="contact-list text-light bg-opacity-25">
-    <h2 >Email</h2>
-    <p class="lead text-light">danielbvideo@gmail.com</p>
-    <h2 >Phone</h2>
-    <p class="lead text-light">828-585-1884</p>
-    <h2 >GitHub</h2>
-    <p class="lead text-light">https://github.com/WebDeverDan</p>
-    <h2 >Design Portfolio</h2>
-    <p class="lead text-light">www.danielbvideo.com</p>
-    </div>
-    </Col>
-    <Col sm={5}>
-    <div className="contact-form text-light">
-    <h2 >Leave a Comment!</h2>
-    
-    <label for='full-name'>Full Name</label>
-        <input
-          type='text'
-          class='form-control fst-italic'
-          id='full-name'
-          placeholder="Full Name"
-          onFocus={(e) => e.target.placeholder = ""} 
-          onBlur={(e) => e.target.placeholder = "Don't forget your name!"} 
-          required
-        />
-         <label for='email-address'>Email Address</label>
-        <input
-          type='email'
-          value={email}
-          name='email'
-          class='form-control fst-italic'
-          id='email-address'
-          placeholder='Email Address'
-          onChange={handleInputChange}
-          onFocus={(e) => e.target.placeholder = ""} 
-          onBlur={(e) => e.target.placeholder = "Don't forget your email!"}
-          />
-          {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
-        <label for='first-name'>Phone Number</label>
-        <input
-          type='text'
-          class='form-control fst-italic'
-          id='phone-number'
-          placeholder='Phone Number'
-          onFocus={(e) => e.target.placeholder = ""} 
-          onBlur={(e) => e.target.placeholder = "Don't forget your number!"}
-          required
-        />
-        <label for='comment'>Leave a Comment</label>
-        <input
-          type='text'
-          class='form-control fst-italic pb-5'
-          id='comment'
-          placeholder='Comment'
-          onFocus={(e) => e.target.placeholder = ""} 
-          onBlur={(e) => e.target.placeholder = "Enter a comment if you want!"}
-          required
-        />
-        <div className="submitB">
-        <a className="navbar-brand enter-btn mt-1" href="/contact" onClick={handleFormSubmit}> Submit</a>
-        </div>
-        
-    </div>
-    
-    </Col>
-    
-    
-    
-</Row>
-</Container>
+  return (
+    <FadeIn transitionDuration={1000}>
+      <Container
+        fluid="md bg-dark bg-opacity-75 mb-5 contact-container"
+        id="contact"
+      >
+        <h1 class="display-4 text-light text-center pt-2 fw-normal">
+          Contact Daniel
+        </h1>
+        <Row>
+          <Col sm={6}>
+            <div className="contact-list text-light bg-opacity-25">
+              <FadeIn transitionDuration={1000} delay={800}>
+                <h2>Email</h2>
+                <p class="lead text-light">danielbvideo@gmail.com</p>
+              </FadeIn>
+              <FadeIn transitionDuration={1000} delay={850}>
+                <h2>Phone</h2>
+                <p class="lead text-light">828-585-1884</p>
+              </FadeIn>
+              <FadeIn transitionDuration={1000} delay={900}>
+                <h2>GitHub</h2>
+                <p class="lead text-light">https://github.com/WebDeverDan</p>
+              </FadeIn>
+              <FadeIn transitionDuration={1000} delay={950}>
+                <h2>LinkedIn</h2>
+                <p class="lead text-light">
+                  https://www.linkedin.com/in/daniel-bradley828/
+                </p>
+              </FadeIn>
+              <FadeIn transitionDuration={1000} delay={1000}>
+                <h2>Design Portfolio</h2>
+                <p class="lead text-light">www.danielbvideo.com</p>
+              </FadeIn>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </FadeIn>
   );
 };
-
-  
-
-
-
 
 export default Contact;

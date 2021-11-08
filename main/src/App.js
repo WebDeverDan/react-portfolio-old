@@ -19,11 +19,12 @@ const location=useLocation();
     
     <>
        
-        { location.pathname !==  "/" ? <Header />:"" }
-        <Route exact path="/">
+        {/* { location.pathname !==  "/" ? <Header />:"" } */}
+        {/* <Route exact path="/">
          <Home />
-        </Route> 
-        <Route exact path="/about">
+        </Route>  */}
+        <Header />
+        <Route exact path="/">
          <About />
         </Route>
         <Route exact path="/portfolio">
@@ -35,8 +36,18 @@ const location=useLocation();
         <Route exact path="/resume" >
          <Resume />
         </Route> 
-        { location.pathname !==  "/" ? <Footer />:"" }  
+        <Footer />
+        {/* { location.pathname !==  "/" ? <Footer />:"" }   */}
     </>
+    
+/* <>
+    <Header />
+    <About />
+    <Portfolio />
+    <Resume />
+    <Contact />
+    <Footer />
+</> */
     
     
   );
