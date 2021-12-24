@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.7f9224d4.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.a6932050.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.a6932050.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.e0cc0d45.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.10bb2c9b.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.10bb2c9b.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.18f1ba08.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.18f1ba08.js.map",
     "static/css/2.0a9ec390.chunk.css": "/react-portfolio/static/css/2.0a9ec390.chunk.css",
@@ -12,11 +12,11 @@
     "static/js/3.3025fc51.chunk.js.map": "/react-portfolio/static/js/3.3025fc51.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/react-portfolio/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.7f9224d4.chunk.css.map": "/react-portfolio/static/css/main.7f9224d4.chunk.css.map",
+    "static/css/main.e0cc0d45.chunk.css.map": "/react-portfolio/static/css/main.e0cc0d45.chunk.css.map",
     "static/js/2.d400a27f.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.d400a27f.chunk.js.LICENSE.txt",
     "static/media/Daily_Planner1.3bb1b5a5.png": "/react-portfolio/static/media/Daily_Planner1.3bb1b5a5.png",
     "static/media/Daniel Bradley Headshot.8b243bd5.jpg": "/react-portfolio/static/media/Daniel Bradley Headshot.8b243bd5.jpg",
-    "static/media/Daniel Bradley Resume.0b4c1702.pdf": "/react-portfolio/static/media/Daniel Bradley Resume.0b4c1702.pdf",
+    "static/media/Daniel Bradley Resume.234ce4e0.pdf": "/react-portfolio/static/media/Daniel Bradley Resume.234ce4e0.pdf",
     "static/media/Lego1.1b0d462b.png": "/react-portfolio/static/media/Lego1.1b0d462b.png",
     "static/media/Weather2.eb67cb5f.png": "/react-portfolio/static/media/Weather2.eb67cb5f.png",
     "static/media/artin around.2f34a530.png": "/react-portfolio/static/media/artin around.2f34a530.png",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.18f1ba08.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.d400a27f.chunk.js",
-    "static/css/main.7f9224d4.chunk.css",
-    "static/js/main.a6932050.chunk.js"
+    "static/css/main.e0cc0d45.chunk.css",
+    "static/js/main.10bb2c9b.chunk.js"
   ]
 }
